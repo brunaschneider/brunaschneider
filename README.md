@@ -5,9 +5,10 @@ Transito entre o Design (UX/UI), o Desenvolvimento (Frontend & SQL) e a Qualidad
 ---
 
 ### 🚀 O que eu faço:
-* 🎨 **Design:** Prototipagem de alta fidelidade no Figma (UX/UI).
+
 * 💻 **Dev:** ReactJS, JavaScript e modelagem de dados (CRUD/SQL).
-* ✅ **QA:** Rigor com a qualidade, testes de software e documentação técnica.
+* ✅ **QA:** Qualidade e inovação, testes de software e documentação técnica.
+* 🎨 **Design UX/UI:** Prototipagem de alta fidelidade no Figma (UX/UI).
 
 ---
 
