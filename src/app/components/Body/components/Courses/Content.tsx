@@ -52,6 +52,14 @@ export const contentPTBR: CoursesContent = {
             start: "2024",
             end: "2024",
             description: "Especialização em criação de interfaces visuais modernas e funcionais para produtos digitais."
+        },
+        {
+            icon: <FaLaptopCode />,
+            title: "C# COMPLETO Programação Orientada a Objetos + Projetos",
+            platform: "Udemy",
+            start: "2024",
+            end: "2024",
+            description: "Especialização em C# e Programação Orientada a Objetos, abrangendo desde fundamentos até o desenvolvimento de projetos práticos."
         }
     ]
 }
@@ -90,6 +98,14 @@ export const contentEN: CoursesContent = {
             start: "2024",
             end: "2024",
             description: "Specialization in creating modern and functional visual interfaces for digital products."
+        },
+        {
+            icon: <FaLaptopCode />,
+            title: "Complete C# Object-Oriented Programming + Projects",
+            platform: "Udemy",
+            start: "2024",
+            end: "2024",
+            description: "Specialization in C# and Object-Oriented Programming, covering from fundamentals to the development of practical projects."
         }
     ]
 }

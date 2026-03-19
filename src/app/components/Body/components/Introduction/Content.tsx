@@ -36,11 +36,15 @@ export const contentPTBR: IntroductionContent = {
         },
         {
             icon: <FaCode />,
-            text: "4 anos atuando como desenvolvedora de sistemas;"
+            text: "3 anos atuando como desenvolvedora de sistemas;"
         },
         {
             icon: <FaLaptopCode />,
             text: "Desenvolvimento Front-end com ReactJS e JavaScript;"
+        },
+        {
+            icon: <FaLaptopCode />,
+            text: "Desenvolvimento de Testes Automatomatizados com Cypress;"
         },
         {
             icon: <FaPaintBrush />,
