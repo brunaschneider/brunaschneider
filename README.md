@@ -15,6 +15,6 @@ Transito entre o Design (UX/UI), o Desenvolvimento (Frontend & SQL) e a Qualidad
 ### 🎓 Momento Atual:
 Cursando **MBA em Gestão de Projetos e Metodologias Ágeis (PUCRS)**, unindo técnica e gestão para entregas de valor.
 
-✨ **[Clique aqui para explorar meu Portfólio](https://brunaschneider.vercel.app/)** ---
+✨ **[Clique aqui para explorar meu Portfólio](https://brunaschneider.vercel.app/)**
 
 📫 **Vamos conversar?** [brunaschneiderhenke@gmail.com](mailto:brunaschneiderhenke@gmail.com)
