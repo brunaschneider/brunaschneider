@@ -1,0 +1,170 @@
+:root {
+    --timeline-line-color: #3967ff ;
+    --timeline-line-glow-color: rgb(158, 189, 255);
+}
+
+.timeline-line {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacer {
+    width: 40%;
+    height: 100%;
+}
+
+.experience-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 2px;
+    padding: 70px 25px 30px 25px;
+    margin: 13px 0 0 0;
+}
+
+#experience-timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+#experience-timeline::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    width: 5px;
+    border-radius: 5px;
+    height: calc(100% - 30px);
+    background: linear-gradient(
+        to bottom,
+        var(--timeline-line-color) 0%,
+        var(--timeline-line-color) 35%,
+        var(--timeline-line-glow-color) 50%,
+        var(--timeline-line-color) 65%,
+        var(--timeline-line-color) 100%
+    );
+    background-size: 100% 200%;
+    animation: fadingLine 5s linear infinite;
+}
+
+@keyframes fadingLine {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 -200%;
+    }
+}
+
+#start-point {
+    color: var(--timeline-line-color);
+    font-size: 25px;
+    background-color: black;
+    margin: 0 0 -13px 0;
+}
+
+.left-side {
+    text-align: right;
+    align-items: flex-end;
+    justify-content: right;
+    margin-right: -5px;
+}
+
+.right-side {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
+    margin-left: -5px;
+}
+
+.left-side-point, 
+.right-side-point {
+    z-index: 100;
+    position: absolute;
+    bottom:-10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--timeline-line-color);
+    font-size: 20px;
+    background-color: black;
+}
+
+.left-side-point {
+    right: -7px;
+}
+
+.right-side-point {
+    left: -7px;
+}
+
+.title {
+    color: rgb(57, 136, 255);
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.company {
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.date-range {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ccc;
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #eee;
+}
+
+.bottom-exp-line {
+    position: absolute;
+    bottom: 20px;
+    width: 60%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: var(--timeline-line-color);
+}
+
+.left-side-line {
+    right: 41px;
+}
+
+.right-side-line {
+    left: 41px;
+}
+
+.right-bottom-line-wing,
+.left-bottom-line-wing {
+    position: absolute;
+    /* border-radius: 5px; */
+    bottom: 8px;
+    width: 50px;
+    height: 3px;
+    background-color: var(--timeline-line-color);
+}
+
+.right-bottom-line-wing {
+    left: -5px;
+    transform: rotate(-30deg);
+}
+
+.left-bottom-line-wing {
+    right: -5px;
+    transform: rotate(30deg);
+}

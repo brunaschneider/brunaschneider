@@ -1,0 +1,29 @@
+.header-item {
+    padding: 0 20px;
+    color: #dddddd;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 20px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(#ffffff 0 0);
+    background-position: 0 100%;
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    transition:
+        background-size 0.3s,
+        background-position 0s 0.3s;
+        text-shadow: 0.3s;
+}
+
+.header-item:hover{
+    color: white;
+    cursor: pointer;
+    background-position: 100% 100%;
+    background-size: 100% 3px;
+    text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor;
+}
