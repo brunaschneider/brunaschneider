@@ -44,7 +44,6 @@ export const contentPTBR: ExperienceContent = {
             end: "Fevereiro de 2022", 
             description: "Suporte técnico, manutenção de hardware e software, atendimento a clientes e análise/tratamento de imagens." 
         },
-        {} // Objeto vazio para fechar a estrutura da timeline
     ]
 }
 
@@ -79,6 +78,5 @@ export const contentEN: ExperienceContent = {
             end: "February 2022", 
             description: "Technical support, hardware and software maintenance, customer service, and image analysis/processing." 
         },
-        {} // Empty object to fit the timeline structure
     ]
 }

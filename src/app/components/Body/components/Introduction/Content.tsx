@@ -27,7 +27,7 @@ const getYearsDiff = (year: number): number => {
 export const contentPTBR: IntroductionContent = {
     name: "Bruna Schneider Fonseca",
     email: "brunaschneiderhenke@gmail.com",
-    intro: "Prazer, meu nome é Bruna e sou Desenvolvedora Front-end com forte atuação em UX/UI Design.",
+    intro: "Prazer, meu nome é Bruna e sou Desenvolvedora Front-end Júnior com forte atuação em UX/UI Design.",
     listTitle: "Algumas das minhas qualificações incluem:",
     list: [
         {
@@ -44,7 +44,7 @@ export const contentPTBR: IntroductionContent = {
         },
         {
             icon: <FaLaptopCode />,
-            text: "Desenvolvimento de Testes Automatomatizados com Cypress;"
+            text: "Desenvolvimento de Testes Automatizados com Cypress;"
         },
         {
             icon: <FaPaintBrush />,
@@ -60,7 +60,7 @@ export const contentPTBR: IntroductionContent = {
         },
         {
             icon: <FaUserGraduate />,
-            text: "Graduada em Análise e Desenvolvimento de Sistemas;"
+            text: "Graduada em Análise e Desenvolvimento de Sistemas (Tecnólogo);"
         },
         {
             icon: <FaUserGraduate />,
@@ -86,11 +86,15 @@ export const contentEN: IntroductionContent = {
         },
         {
             icon: <FaCode />,
-            text: "4 years working as a systems developer;"
+            text: "3 years working as a systems developer;"
         },
         {
             icon: <FaLaptopCode />,
             text: "Front-end development with ReactJS and JavaScript;"
+        },
+        {
+            icon: <FaLaptopCode />,
+            text: "Automated testing development with Cypress;"
         },
         {
             icon: <FaPaintBrush />,
@@ -106,7 +110,7 @@ export const contentEN: IntroductionContent = {
         },
         {
             icon: <FaUserGraduate />,
-            text: "Bachelor's degree in Systems Analysis and Development;"
+            text: "Associate degree in Systems Analysis and Development;"
         },
         {
             icon: <FaUserGraduate />,
