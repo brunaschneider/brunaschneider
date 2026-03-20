@@ -4,17 +4,25 @@ Transito entre o Design (UX/UI), o Desenvolvimento (Frontend & SQL) e a Qualidad
 
 ---
 
-### 🚀 O que eu faço:
+### 🚀 Tech Stack & Proficiência:
 
-* 💻 **Dev:** ReactJS, JavaScript e modelagem de dados (CRUD/SQL).
-* ✅ **QA:** Qualidade e inovação, testes de software e documentação técnica.
-* 🎨 **Design UX/UI:** Prototipagem de alta fidelidade no Figma (UX/UI).
+**Especialidade (Intermediário/Avançado)**
+* **Frontend:** JavaScript (ES6+), ReactJS, HTML5 e CSS3.
+* **Design:** Figma (Prototipagem de alta fidelidade e UX/UI).
+
+**Sólido (Intermediário)**
+* **QA & Automation:** Cypress (Testes E2E e Funcionais).
+* **Dados:** SQL (Modelagem, CRUD e consultas estruturadas).
+
+**Conhecimentos Base (Básico)**
+* **Frontend:** TypeScript, Angular (Em constante evolução).
+* **Backend:** C#.
 
 ---
 
 ### 🎓 Momento Atual:
 Cursando **MBA em Gestão de Projetos e Metodologias Ágeis (PUCRS)**, unindo técnica e gestão para entregas de valor.
 
-✨ **[Clique aqui para explorar meu Portfólio](https://brunaschneider.vercel.app/)**
+✨ **[Clique aqui para explorar uma pequena parcela do meu Portfólio](https://brunaschneider.vercel.app/)**
 
 📫 **Vamos conversar?** [brunaschneiderhenke@gmail.com](mailto:brunaschneiderhenke@gmail.com)
