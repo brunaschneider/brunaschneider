@@ -27,7 +27,7 @@ const getYearsDiff = (year: number): number => {
 export const contentPTBR: IntroductionContent = {
     name: "Bruna Schneider Fonseca",
     email: "brunaschneiderhenke@gmail.com",
-    intro: "Prazer, meu nome é Bruna e sou Desenvolvedora Front-end Júnior com forte atuação em UX/UI Design.",
+    intro: "Prazer, meu nome é Bruna e sou Desenvolvedora Front-end com forte atuação em UX/UI Design.",
     listTitle: "Algumas das minhas qualificações incluem:",
     list: [
         {
@@ -60,7 +60,7 @@ export const contentPTBR: IntroductionContent = {
         },
         {
             icon: <FaUserGraduate />,
-            text: "Graduada em Análise e Desenvolvimento de Sistemas (Tecnólogo);"
+            text: "Graduada em Análise e Desenvolvimento de Sistemas;"
         },
         {
             icon: <FaUserGraduate />,
