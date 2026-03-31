@@ -10,7 +10,7 @@ const NavbarContainer = styled.nav`
   transform: translateX(-50%);
   z-index: 10;
   display: flex;
-  gap: 40px; /* Aumentei o gap para caber o texto confortavelmente */
+  gap: 40px; 
 `;
 
 const SocialLink = styled.a`
@@ -20,13 +20,13 @@ const SocialLink = styled.a`
   color: var(--text-white);
   font-size: 0.85rem;
   font-weight: 400;
-  text-decoration: none; /* ISTO REMOVE O SUBLINHADO */
+  text-decoration: none;
   transition: all 0.3s ease;
   opacity: 0.9;
 
   &:hover {
     opacity: 1;
-    color: var(--secondary-pink); /* Cor Rosa Seco do seu design */
+    color: var(--secondary-pink);
     transform: translateY(-2px);
   }
 
@@ -46,7 +46,6 @@ export const SocialNavbar = () => {
         <FontAwesomeIcon icon={faLinkedin} />
         Linkedin
       </SocialLink>
-
       <SocialLink 
         href="https://github.com/brunaschneider" 
         target="_blank" 
@@ -55,7 +54,6 @@ export const SocialNavbar = () => {
         <FontAwesomeIcon icon={faGithub} />
         GitHub
       </SocialLink>
-
       <SocialLink href="mailto:brunaschneiderhenke@gmail.com">
         <FontAwesomeIcon icon={faEnvelope} />
         Email

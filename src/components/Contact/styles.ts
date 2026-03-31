@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const ContactSection = styled.section`
   width: 100%;
-  background-color: #08060d; /* Fundo escuro */
-  padding: 80px 5% 0px 5%; /* Padding inferior zerado (controlamos no footer) */
+  background-color: #08060d;
+  padding: 80px 5% 0px 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,6 @@ export const Title = styled.h2`
   text-transform: uppercase;
   margin-bottom: 30px;
   line-height: 0.9;
-  /* Garante que não haja nenhum padding interno empurrando o texto */
   padding: 0;
   margin-left: 0; 
 
@@ -30,14 +29,12 @@ export const Title = styled.h2`
 
 export const DesktopGrid = styled.div`
   display: grid;
-  /* Definimos larguras máximas para as colunas não se afastarem */
   grid-template-columns: minmax(400px, 500px) minmax(400px, 600px); 
-  /* Reduzi o gap para os elementos ficarem próximos */
   gap: 40px; 
   width: 100%;
-  max-width: 1200px; /* Reduzi o max-width para "fechar" o layout no centro */
+  max-width: 1200px;
   align-items: center;
-  justify-content: center; /* Centraliza o conjunto todo na tela */
+  justify-content: center;
   margin-bottom: 80px;
 
   @media (max-width: 1024px) {
@@ -50,7 +47,6 @@ export const DesktopGrid = styled.div`
 export const LeftColumn = styled.div`
   display: flex;
   flex-direction: column;
-  /* Alinha tudo à esquerda para o título e o QR code começarem no mesmo ponto */
   align-items: flex-start; 
   text-align: left;
 
@@ -63,7 +59,6 @@ export const LeftColumn = styled.div`
 export const QrCodesRow = styled.div`
   display: flex;
   gap: 40px;
-  /* Garante que o primeiro QR code não tenha margem esquerda */
   justify-content: flex-start; 
   width: 100%;
 
@@ -76,7 +71,7 @@ export const QrCodesRow = styled.div`
 export const QrCodeContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center; /* Ícone/Texto centralizados entre si */
+  align-items: center;
   text-align: center;
 
   img {
@@ -97,7 +92,7 @@ export const QrCodeContainer = styled.div`
 
 export const RightColumn = styled.div`
   display: flex;
-  justify-content: flex-start; /* Alinha a imagem para encostar no meio */
+  justify-content: flex-start;
   width: 100%;
 
   img {
@@ -117,7 +112,7 @@ export const RightColumn = styled.div`
 export const FooterContainer = styled.footer`
   width: 100%;
   background-color: #08060d;
-  padding: 40px 0 60px 0; /* padding bottom de 60px para o respiro final */
+  padding: 40px 0 60px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   flex-direction: column;

@@ -1,5 +1,5 @@
 :root {
-  --bg-dark: #08060d; /* Cor padrão do seu fundo */
+  --bg-dark: #08060d;
   --text-white: #f3f4f6;
   --primary-red: #8B0000;
 }
@@ -9,12 +9,12 @@ body {
   padding: 0;
   width: 100%;
   background-color: var(--bg-dark);
-  overflow-x: hidden; /* Evita scroll lateral */
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
 #root {
-  width: 100%; /* Ocupa a tela toda */
+  width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
@@ -22,7 +22,7 @@ body {
 }
 
 :root {
-  font-family: 'Roboto', sans-serif; /* Muda a fonte de tudo que não for título */
+  font-family: 'Roboto', sans-serif;
 }
 
 a {

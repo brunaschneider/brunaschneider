@@ -23,17 +23,16 @@ export const ContentWrapper = styled.div`
   align-items: center;
 
   @media (max-width: 1024px) {
-    /* Muda para uma coluna só no mobile/tablet */
     grid-template-columns: 1fr; 
     gap: 50px;
-    justify-items: center; /* Centraliza a div da imagem e do texto na grade */
+    justify-items: center;
   }
 `;
 
 export const LeftDiv = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: left; /* Padrão desktop: esquerda */
+  text-align: left;
 
   h2 {
     font-family: 'Antonio', sans-serif;
@@ -77,10 +76,9 @@ export const LeftDiv = styled.div`
     }
   }
 
-  /* VARIAÇÃO PARA TELAS MENORES */
   @media (max-width: 1024px) {
-    align-items: center; /* Centraliza o conteúdo da div */
-    text-align: center; /* Centraliza o texto */
+    align-items: center;
+    text-align: center;
     
     h2 { 
       font-size: 55px; 
@@ -92,7 +90,7 @@ export const LeftDiv = styled.div`
     }
 
     ul li {
-      justify-content: center; /* Centraliza os ícones com o texto na lista */
+      justify-content: center;
     }
   }
 `;
@@ -109,11 +107,11 @@ export const RightDiv = styled.div`
   }
 
   @media (max-width: 1024px) {
-    justify-content: center; /* Imagem centralizada no mobile */
-    order: -1; /* Opcional: coloca a imagem em cima do texto no mobile */
+    justify-content: center;
+    order: -1;
     
     img {
-      max-width: 350px; /* Reduz um pouco o avatar no mobile */
+      max-width: 350px;
     }
   }
 `;

@@ -17,18 +17,16 @@ export const Contact = () => {
           <S.QrCodesRow>
             <S.QrCodeContainer>
               <img src={qrFigmaImg} alt="QR Code Figma" />
-              <span>Ver mais projetos no Figma</span>
+              <span>Compilado de Projetos Vitrine</span>
               <span style={{ fontSize: '0.7rem', opacity: 0.5 }}>Figma</span>
             </S.QrCodeContainer>
             <S.QrCodeContainer>
               <img src={qrWhatsappImg} alt="QR Code Whatsapp" />
-              <span>Compilado de Projetos Vitrine</span>
+              <span>Entre em Contato</span>
               <span style={{ fontSize: '0.7rem', opacity: 0.5 }}>WhatsApp</span>
             </S.QrCodeContainer>
           </S.QrCodesRow>
         </S.LeftColumn>
-
-        {/* COLUNA DIREITA: Sua Foto (Avatar Final) */}
         <S.RightColumn>
           <img src={perfilFinalImg} alt="Bruna Schneider - UX/UI" />
         </S.RightColumn>

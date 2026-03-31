@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ExperienceContainer = styled.section`
   width: 100%;
   background-color: #08060d;
-  padding: 60px 5% 0px 5%; /* Padding inferior zerado para o banner subir */
+  padding: 60px 5% 0px 5%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -84,7 +84,7 @@ export const ExpCard = styled.div`
     font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
-    color: #ffffff; /* Cor do cargo em vermelho */
+    color: #ffffff;
     margin-bottom: 5px;
     min-height: 2.4em;
     display: flex;

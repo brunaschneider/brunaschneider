@@ -27,7 +27,6 @@ export const Experience = () => {
   return (
     <S.ExperienceContainer>
       <S.Title>EXPERIÊNCIA</S.Title>
-      
       <S.TimelineWrapper>
         <S.CardsRow>
           {experiences.map((exp, index) => (

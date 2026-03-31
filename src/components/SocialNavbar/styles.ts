@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const NavContainer = styled.nav`
-  /* ... seus estilos de posição ... */
   display: flex;
   gap: 30px;
   padding: 20px 5%;
@@ -19,7 +18,7 @@ export const SocialLink = styled.a`
   transition: opacity 0.3s;
 
   svg {
-    font-size: 1.1rem; /* Tamanho do ícone */
+    font-size: 1.1rem;
   }
 
   &:hover {

@@ -25,7 +25,7 @@ export const EducationRow = styled.div`
   width: 100%;
   max-width: 1400px;
   justify-content: space-between;
-  align-items: flex-start; /* Alinha todos os cards pelo topo */
+  align-items: flex-start;
   gap: 20px;
 
   @media (max-width: 1024px) {
@@ -54,8 +54,7 @@ export const Card = styled.div`
     font-weight: 700;
     color: #000000;
     line-height: 1.2;
-    margin-bottom: 5px; /* Bem grudadinho no detalhe */
-    /* Reserva espaço para o título não empurrar o de baixo */
+    margin-bottom: 5px;
     min-height: 2.5em; 
     display: flex;
     align-items: center;

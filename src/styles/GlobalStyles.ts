@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
-  /* Importação direta do Google Fonts */
   @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
 
   :root {
