@@ -1,26 +1,26 @@
-import { useState, useEffect } from 'react';
 import * as S from './styles';
-import bannerDesktop from '../../assets/banner-skills.png';
-import bannerMobile from '../../assets/banner-skills-alternativo.png';
+import bannerDesktop from '../../assets/banner-skills.png'; 
+import bannerAlternativo from '../../assets/banner-skills-alternativo.png';
+import bannerMobile from '../../assets/banner-skills-mobile.png'; 
 
 export const Skills = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1024);
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
   return (
     <S.SkillsSection>
       <S.BannerWrapper>
         <S.ResponsiveImage 
-          src={isMobile ? bannerMobile : bannerDesktop} 
-          alt="Minhas Skills Profissionais" 
+          src={bannerDesktop} 
+          alt="Skills Desktop" 
+          className="desktop-banner" 
+        />
+        <S.ResponsiveImage 
+          src={bannerAlternativo} 
+          alt="Skills Tablet" 
+          className="alternativo-banner" 
+        />
+        <S.ResponsiveImage 
+          src={bannerMobile} 
+          alt="Skills Mobile" 
+          className="mobile-banner" 
         />
       </S.BannerWrapper>
     </S.SkillsSection>

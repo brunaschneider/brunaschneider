@@ -3,16 +3,16 @@ import styled from 'styled-components';
 export const SkillsSection = styled.section`
   width: 100%;
   background-color: #08060d;
-  padding: 0;
-  margin-top: -30px; 
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  overflow: hidden;
+  padding: 40px 0;
+  margin: 0;
 
-  @media (max-width: 1024px) {
-    margin-top: 0;
-    padding-top: 30px; 
-    padding-bottom: 50px;
+  @media (min-width: 1025px) {
+    margin-top: -30px;
+    padding: 0;
   }
 `;
 
@@ -20,13 +20,53 @@ export const BannerWrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  padding-right: 8%; 
+  padding-right: 40px;
+
+  @media (min-width: 601px) {
+    padding-right: 60px;
+  }
+
+  @media (min-width: 1025px) {
+    padding-right: 8%;
+  }
 `;
 
 export const ResponsiveImage = styled.img`
-  width: auto;
-  max-width: 100%;
-  height: auto;
   display: block;
-  margin-left: -2px;
+  height: auto;
+  
+  &.mobile-banner {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    object-fit: contain;
+  }
+
+  &.alternativo-banner, 
+  &.desktop-banner {
+    display: none;
+  }
+
+  @media (min-width: 601px) {
+    &.mobile-banner {
+      display: none;
+    }
+    &.alternativo-banner {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    &.alternativo-banner {
+      display: none;
+    }
+    &.desktop-banner {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      margin-left: -2px;
+    }
+  }
 `;

@@ -3,68 +3,81 @@ import styled from 'styled-components';
 export const ContactSection = styled.section`
   width: 100%;
   background-color: #08060d;
-  padding: 80px 5% 0px 5%;
+  padding: 60px 20px 0px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
+
+  @media (min-width: 1025px) {
+    padding: 80px 5% 0px 5%;
+  }
 `;
 
 export const Title = styled.h2`
   font-family: 'Antonio', sans-serif;
-  font-size: 85px;
+  font-size: 42px;
   font-weight: 700;
   color: #FFFFFF;
   text-transform: uppercase;
   margin-bottom: 30px;
   line-height: 0.9;
-  padding: 0;
-  margin-left: 0; 
+  text-align: center;
 
-  @media (max-width: 1024px) {
-    font-size: 48px;
-    text-align: center;
+  @media (min-width: 601px) {
+    font-size: 60px;
+  }
+
+  @media (min-width: 1025px) {
+    font-size: 85px;
+    text-align: left;
   }
 `;
 
 export const DesktopGrid = styled.div`
   display: grid;
-  grid-template-columns: minmax(400px, 500px) minmax(400px, 600px); 
-  gap: 40px; 
+  grid-template-columns: 1fr;
+  gap: 40px;
   width: 100%;
   max-width: 1200px;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 80px;
+  justify-items: center;
+  margin-bottom: 60px;
 
-  @media (max-width: 1024px) {
-    grid-template-columns: 1fr;
-    gap: 40px;
-    justify-items: center;
+  @media (min-width: 1025px) {
+    grid-template-columns: minmax(400px, 500px) minmax(400px, 600px);
+    justify-content: center;
+    margin-bottom: 80px;
   }
 `;
 
 export const LeftColumn = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
-  text-align: left;
+  align-items: center;
+  text-align: center;
+  order: 1;
 
-  @media (max-width: 1024px) {
-    align-items: center;
-    text-align: center;
+  @media (min-width: 1025px) {
+    align-items: flex-start;
+    text-align: left;
   }
 `;
 
 export const QrCodesRow = styled.div`
   display: flex;
-  gap: 40px;
-  justify-content: flex-start; 
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
   width: 100%;
 
-  @media (max-width: 1024px) {
-    gap: 30px;
-    justify-content: center;
+  @media (min-width: 601px) {
+    gap: 50px;
+  }
+
+  @media (min-width: 1025px) {
+    gap: 40px;
+    justify-content: flex-start;
   }
 `;
 
@@ -75,37 +88,63 @@ export const QrCodeContainer = styled.div`
   text-align: center;
 
   img {
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
     object-fit: contain;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+
+    @media (min-width: 601px) {
+      width: 220px;
+      height: 220px;
+    }
   }
 
   span {
     font-family: 'Roboto', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     font-weight: 300;
     color: #FFFFFF;
     opacity: 0.8;
+
+    @media (min-width: 601px) {
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    img {
+      width: 200px;
+      height: 200px;
+    }
+    span {
+      font-size: 0.9rem;
+    }
   }
 `;
 
 export const RightColumn = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
+  order: 2;
 
   img {
     width: 100%;
-    max-width: 550px; 
+    max-width: 280px;
     height: auto;
     object-fit: contain;
     border-radius: 50%;
+
+    @media (min-width: 601px) {
+      max-width: 400px;
+    }
   }
 
-  @media (max-width: 1024px) {
-    justify-content: center;
-    img { max-width: 320px; }
+  @media (min-width: 1025px) {
+    justify-content: flex-start;
+    img {
+      max-width: 550px;
+    }
   }
 `;
 

@@ -45,7 +45,6 @@ export const TimelineWrapper = styled.div`
   }
 `;
 
-// O COMPONENTE QUE ESTAVA FALTANDO:
 export const CardsRow = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
