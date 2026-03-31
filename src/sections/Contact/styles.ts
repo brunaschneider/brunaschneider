@@ -2,23 +2,22 @@ import styled from 'styled-components';
 
 export const ContactSection = styled.section`
   width: 100%;
-  background-color: #08060d;
-  padding: 60px 20px 0px 20px;
+  background-color: var(--bg-deep);
+  padding: 60px 20px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
 
   @media (min-width: 1025px) {
-    padding: 80px 5% 0px 5%;
+    padding: 80px 5% 0;
   }
 `;
 
 export const Title = styled.h2`
-  font-family: 'Antonio', sans-serif;
+  font-family: var(--font-secondary);
   font-size: 42px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: var(--text-white);
   text-transform: uppercase;
   margin-bottom: 30px;
   line-height: 0.9;
@@ -81,45 +80,52 @@ export const QrCodesRow = styled.div`
   }
 `;
 
-export const QrCodeContainer = styled.div`
+export const QrCodeCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+`;
 
-  img {
-    width: 140px;
-    height: 140px;
-    object-fit: contain;
-    margin-bottom: 10px;
+export const QrCodeImage = styled.img`
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 10px;
 
-    @media (min-width: 601px) {
-      width: 220px;
-      height: 220px;
-    }
-  }
-
-  span {
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.75rem;
-    font-weight: 300;
-    color: #FFFFFF;
-    opacity: 0.8;
-
-    @media (min-width: 601px) {
-      font-size: 1rem;
-    }
+  @media (min-width: 601px) {
+    width: 220px;
+    height: 220px;
   }
 
   @media (min-width: 1025px) {
-    img {
-      width: 200px;
-      height: 200px;
-    }
-    span {
-      font-size: 0.9rem;
-    }
+    width: 200px;
+    height: 200px;
   }
+`;
+
+export const QrCodeLabel = styled.span`
+  font-family: var(--font-primary);
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--text-white);
+  opacity: 0.8;
+
+  @media (min-width: 601px) {
+    font-size: 1rem;
+  }
+
+  @media (min-width: 1025px) {
+    font-size: 0.9rem;
+  }
+`;
+
+export const QrCodeType = styled.span`
+  font-family: var(--font-primary);
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: var(--text-white);
+  opacity: 0.5;
 `;
 
 export const RightColumn = styled.div`
@@ -128,30 +134,31 @@ export const RightColumn = styled.div`
   width: 100%;
   order: 2;
 
-  img {
-    width: 100%;
-    max-width: 280px;
-    height: auto;
-    object-fit: contain;
-    border-radius: 50%;
+  @media (min-width: 1025px) {
+    justify-content: flex-start;
+  }
+`;
 
-    @media (min-width: 601px) {
-      max-width: 400px;
-    }
+export const ProfileImage = styled.img`
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 50%;
+
+  @media (min-width: 601px) {
+    max-width: 400px;
   }
 
   @media (min-width: 1025px) {
-    justify-content: flex-start;
-    img {
-      max-width: 550px;
-    }
+    max-width: 550px;
   }
 `;
 
 export const FooterContainer = styled.footer`
   width: 100%;
-  background-color: #08060d;
-  padding: 40px 0 60px 0;
+  background-color: var(--bg-deep);
+  padding: 40px 0 60px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   flex-direction: column;
@@ -162,26 +169,26 @@ export const SocialLinks = styled.div`
   display: flex;
   gap: 20px;
   margin-bottom: 30px;
+`;
 
-  a {
-    color: #FFFFFF;
-    font-size: 1.4rem;
-    opacity: 0.7;
-    transition: all 0.3s ease;
+export const SocialAnchor = styled.a`
+  color: var(--text-white);
+  font-size: 1.4rem;
+  opacity: 0.7;
+  transition: all 0.3s ease;
 
-    &:hover {
-      opacity: 1;
-      transform: translateY(-3px);
-      color: #8B0000;
-    }
+  &:hover {
+    opacity: 1;
+    transform: translateY(-3px);
+    color: var(--primary-red);
   }
 `;
 
 export const Copyright = styled.p`
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-primary);
   font-size: 0.8rem;
   font-weight: 300;
-  color: #FFFFFF;
+  color: var(--text-white);
   opacity: 0.5;
   text-align: center;
 `;

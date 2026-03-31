@@ -5,8 +5,18 @@ export const GlobalStyles = createGlobalStyle`
 
   :root {
     --bg-dark: #120202;
+    --bg-deep: #08060d;
     --text-white: #FFFFFF;
+    --text-dark: #000000;
     --secondary-pink: #F7C5C5;
+    --primary-red: #8B0000;
+
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Antonio', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-primary);
   }
 
   * {
@@ -15,9 +25,23 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: var(--bg-dark);
     color: var(--text-white);
+    font-family: var(--font-primary);
     -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  button {
+    font-family: inherit;
+    cursor: pointer;
   }
 `;
