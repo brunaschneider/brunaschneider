@@ -17,7 +17,7 @@ Transito entre o Design (UX/UI), o Desenvolvimento Frontend e a Qualidade (QA). 
 
 **Conhecimentos Base (Básico)**
 * **Frontend:** Angular, Dart, Flutter (Em constante evolução).
-* **Backend:** C#, NodeJS, NextJS.
+* **Backend:** C#, NodeJS, NestJS.
 
 ---
 
