@@ -68,7 +68,7 @@ export const CardsGrid = styled.div`
     gap: 30px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
 `;

@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faFileDownload, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { NavbarContainer, SocialLink } from './SocialNavbar.styles';
 
 const socialLinks = [
@@ -18,6 +18,12 @@ const socialLinks = [
     href: "mailto:brunaschneiderhenke@gmail.com",
     icon: faEnvelope,
     label: "Email"
+  },
+  {
+    href: "/CV-BRUNASCHNEIDER.pdf",
+    icon: faFileDownload,
+    label: "Portfólio PDF",
+    isDownload: true
   }
 ];
 
@@ -30,6 +36,7 @@ export const SocialNavbar = () => {
           href={link.href}
           target="_blank"
           rel="noopener noreferrer"
+          download={link.isDownload ? "Bruna-Schneider-CV.pdf" : undefined}
         >
           <FontAwesomeIcon icon={link.icon} />
           {link.label}

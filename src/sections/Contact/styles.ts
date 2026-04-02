@@ -40,7 +40,7 @@ export const DesktopGrid = styled.div`
   margin-bottom: 60px;
 
   @media (min-width: 1025px) {
-    grid-template-columns: minmax(400px, 500px) minmax(400px, 600px);
+    grid-template-columns: minmax(400px, 500px) minmax(400px, 768px);
     justify-content: center;
     margin-bottom: 80px;
   }

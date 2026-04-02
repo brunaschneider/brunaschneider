@@ -30,6 +30,7 @@ export const Title = styled.h2`
 
   @media (max-width: 768px) {
     font-size: 48px;
+    margin-bottom: 30px;
   }
 `;
 
@@ -56,6 +57,10 @@ export const Card = styled.article`
   align-items: center;
   text-align: center;
   padding: 24px 16px;
+
+  @media (max-width: 768px) {
+    padding: 18px;
+  }
 `;
 
 export const IconWrapper = styled.div`

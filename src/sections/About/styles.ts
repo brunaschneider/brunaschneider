@@ -51,6 +51,10 @@ export const Title = styled.h2`
   @media (max-width: 1024px) {
     font-size: 60px;
   }
+
+  @media (max-width: 768px) {
+    font-size: 48px;
+  }
 `;
 
 export const Presentation = styled.p`
@@ -65,6 +69,10 @@ export const Presentation = styled.p`
   @media (max-width: 1024px) {
     font-size: 30px;
     max-width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 22px;
   }
 `;
 
@@ -93,6 +101,16 @@ export const AboutListItem = styled.li`
   @media (max-width: 1024px) {
     justify-content: center;
   }
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    font-size: 16px;
+    margin: 0 12px;
+
+    svg {
+      width: 16px;
+    }
+  }
 `;
 
 export const ImageWrapper = styled.div`
@@ -113,5 +131,9 @@ export const AvatarImage = styled.img`
 
   @media (max-width: 1024px) {
     max-width: 350px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 260px; 
   }
 `;

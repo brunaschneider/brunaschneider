@@ -8,6 +8,17 @@ export const NavbarContainer = styled.nav`
   z-index: 10;
   display: flex;
   gap: 40px;
+
+  @media (max-width: 1024px) {
+    position: static;
+    transform: none;
+    width: 100%;
+    justify-content: center;
+    gap: 18px;
+    padding: 12px 14px;
+    flex-wrap: wrap;
+    background-color: var(--bg-dark);
+  }
 `;
 
 export const SocialLink = styled.a`
@@ -20,6 +31,7 @@ export const SocialLink = styled.a`
   text-decoration: none;
   transition: all 0.3s ease;
   opacity: 0.9;
+  white-space: nowrap;
 
   &:hover {
     opacity: 1;
@@ -33,8 +45,19 @@ export const SocialLink = styled.a`
 
   @media (max-width: 1024px) {
     font-size: 16px;
+    gap: 6px;
+
     svg {
-      font-size: 18px;
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    gap: 6px;
+
+    svg {
+      font-size: 14px;
     }
   }
 `;
