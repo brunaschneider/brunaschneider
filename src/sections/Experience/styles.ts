@@ -11,7 +11,7 @@ export const ExperienceSection = styled.section`
 
 export const Title = styled.h2`
   font-family: var(--font-secondary);
-  font-size: 85px;
+  font-size: 80px;
   font-weight: 700;
   color: var(--text-white);
   text-transform: uppercase;
@@ -20,7 +20,7 @@ export const Title = styled.h2`
   text-align: center;
 
   @media (max-width: 1024px) {
-    font-size: 64px;
+    font-size: 60px;
     margin-bottom: 40px;
   }
 
@@ -93,7 +93,7 @@ export const ExperienceCard = styled.article`
 
 export const CardTitle = styled.h3`
   font-family: var(--font-primary);
-  font-size: 1.1rem;
+  font-size: 20px;
   font-weight: 700;
   color: var(--text-white);
   margin-bottom: 6px;
@@ -101,11 +101,15 @@ export const CardTitle = styled.h3`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 1024px) {
+    font-size: 18px;
+  }
 `;
 
 export const CardSubtitle = styled.span`
   font-family: var(--font-primary);
-  font-size: 0.85rem;
+  font-size: 16px;
   color: var(--text-white);
   opacity: 0.8;
   display: block;
@@ -115,7 +119,7 @@ export const CardSubtitle = styled.span`
 
 export const CardDescription = styled.p`
   font-family: var(--font-primary);
-  font-size: 0.85rem;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
   color: var(--text-white);

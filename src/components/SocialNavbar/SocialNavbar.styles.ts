@@ -15,7 +15,7 @@ export const SocialLink = styled.a`
   align-items: center;
   gap: 10px;
   color: var(--text-white);
-  font-size: 0.85rem;
+  font-size: 18px;
   font-weight: 400;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -28,6 +28,13 @@ export const SocialLink = styled.a`
   }
 
   svg {
-    font-size: 1.1rem;
+    font-size: 20px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+    svg {
+      font-size: 18px;
+    }
   }
 `;

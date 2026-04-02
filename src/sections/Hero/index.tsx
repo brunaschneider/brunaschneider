@@ -1,17 +1,17 @@
-import * as S from './styles';
+import * as style from './styles';
 import bannerDesktop from '../../assets/banner-inicio.png';
 import bannerMobile from '../../assets/banner-inicio-mobile.png';
 
 export const Hero = () => {
   return (
-    <S.HeroSection>
+    <style.HeroSection>
       <picture>
         <source media="(min-width: 769px)" srcSet={bannerDesktop} />
-        <S.HeroImage
+        <style.HeroImage
           src={bannerMobile}
-          alt="Bruna Schneider - Portfólio"
+          alt="Banner: Portfólio deBruna Schneider - Dev Front-End e UX/UI Designer"
         />
       </picture>
-    </S.HeroSection>
+    </style.HeroSection>
   );
 };

@@ -15,20 +15,16 @@ export const ContactSection = styled.section`
 
 export const Title = styled.h2`
   font-family: var(--font-secondary);
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 700;
   color: var(--text-white);
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   line-height: 0.9;
   text-align: center;
 
-  @media (min-width: 601px) {
-    font-size: 60px;
-  }
-
   @media (min-width: 1025px) {
-    font-size: 85px;
+    font-size: 60px;
     text-align: left;
   }
 `;

@@ -41,7 +41,7 @@ export const TextContent = styled.div`
 
 export const Title = styled.h2`
   font-family: var(--font-secondary);
-  font-size: 85px;
+  font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 0.9;
@@ -49,7 +49,7 @@ export const Title = styled.h2`
   color: var(--text-white);
 
   @media (max-width: 1024px) {
-    font-size: 55px;
+    font-size: 60px;
   }
 `;
 
@@ -63,7 +63,7 @@ export const Presentation = styled.p`
   color: var(--text-white);
 
   @media (max-width: 1024px) {
-    font-size: 22px;
+    font-size: 30px;
     max-width: 100%;
   }
 `;
@@ -80,7 +80,7 @@ export const AboutListItem = styled.li`
   align-items: center;
   gap: 12px;
   font-family: var(--font-primary);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   color: var(--text-white);
 

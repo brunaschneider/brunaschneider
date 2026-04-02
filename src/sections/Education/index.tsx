@@ -1,4 +1,4 @@
-import * as S from './styles';
+import * as style from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
@@ -23,20 +23,19 @@ const educations = [
 
 export const Education = () => {
   return (
-    <S.EducationSection id="education">
-      <S.Title>Educação</S.Title>
-      <S.EducationGrid>
+    <style.EducationSection id="education">
+      <style.Title>Educação</style.Title>
+      <style.EducationGrid>
         {educations.map((education) => (
-          <S.Card key={education.title}>
-            <S.IconWrapper>
+          <style.Card key={education.title}>
+            <style.IconWrapper>
               <FontAwesomeIcon icon={faGraduationCap} />
-            </S.IconWrapper>
-
-            <S.CardTitle>{education.title}</S.CardTitle>
-            <S.CardInfo>{education.info}</S.CardInfo>
-          </S.Card>
+            </style.IconWrapper>
+            <style.CardTitle>{education.title}</style.CardTitle>
+            <style.CardInfo>{education.info}</style.CardInfo>
+          </style.Card>
         ))}
-      </S.EducationGrid>
-    </S.EducationSection>
+      </style.EducationGrid>
+    </style.EducationSection>
   );
 };

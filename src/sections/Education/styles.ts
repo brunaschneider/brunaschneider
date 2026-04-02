@@ -15,7 +15,7 @@ export const EducationSection = styled.section`
 
 export const Title = styled.h2`
   font-family: var(--font-secondary);
-  font-size: 85px;
+  font-size: 80px;
   font-weight: 700;
   color: var(--primary-red);
   text-transform: uppercase;
@@ -24,7 +24,7 @@ export const Title = styled.h2`
   line-height: 0.9;
 
   @media (max-width: 1024px) {
-    font-size: 64px;
+    font-size: 60px;
     margin-bottom: 40px;
   }
 
@@ -59,14 +59,14 @@ export const Card = styled.article`
 `;
 
 export const IconWrapper = styled.div`
-  font-size: 1.5rem;
+  font-size: 26px;
   color: var(--text-dark);
   margin-bottom: 15px;
 `;
 
 export const CardTitle = styled.h3`
   font-family: var(--font-primary);
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 700;
   color: var(--text-dark);
   line-height: 1.3;
@@ -74,14 +74,22 @@ export const CardTitle = styled.h3`
   min-height: 2.6em;
   display: flex;
   align-items: center;
+
+  @media (max-width: 1024px) {
+    font-size: 18px;
+  }
 `;
 
 export const CardInfo = styled.p`
   font-family: var(--font-primary);
-  font-size: 0.85rem;
+  font-size: 16px;
   font-weight: 300;
   font-style: italic;
   color: var(--text-dark);
   opacity: 0.8;
   margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 `;
