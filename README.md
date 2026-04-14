@@ -16,7 +16,7 @@ Transito entre o Design (UX/UI), o Desenvolvimento Frontend e a Qualidade (QA). 
 * **Dados:** SQL (Modelagem, CRUD e consultas estruturadas).
 
 **Conhecimentos Base (Básico)**
-* **Frontend:** Angular, Dart, Flutter (Em constante evolução).
+* **Frontend:** Angular, Dart, Flutter, NextJS (Em constante evolução).
 * **Backend:** C#, NodeJS, NestJS.
 
 ---
